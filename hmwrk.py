@@ -9,5 +9,6 @@ with open('newTest.txt') as fr:
         if not word.isnumeric():
             nWords+=1
     print()
+    print(f'Text contains {nWords} words')
 
 
