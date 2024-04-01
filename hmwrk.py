@@ -10,5 +10,7 @@ with open('newTest.txt') as fr:
             nWords+=1
     print()
     print(f'Text contains {nWords} words')
+    print('/////////////////////////')
+
 
 
