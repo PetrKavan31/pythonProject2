@@ -8,5 +8,6 @@ with open('newTest.txt') as fr:
     for word in lines:
         if not word.isnumeric():
             nWords+=1
+    print()
 
 
